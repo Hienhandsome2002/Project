@@ -1,13 +1,44 @@
 import React, { memo, useState, useEffect } from "react";
+import './Header.css'
 function Header(){
     return(
         <header className="header">
             <nav className="nav">
-                <div className="title">
-                    My profile efaefae;fmaf
-                </div>
+            
+                <ul className="listItems">
+                    <li className="item">
+                        <a href="home" className="link">
+                            Home
+                        </a>
+                    </li>
+                    <li className="item">
+                        <a href="about-me" className="link">
+                            About me
+                        </a>
+                    </li>
+                    <li className="item" >
+                        <a href="contact" className="link">
+                            Contact
+                        </a>
+                    </li>
+                    <li className="item">
+                        <a href="education" className="link">
+                            Education
+                        </a>
+                    </li>
+                    <li className="item">
+                        <a href="experience" className="link">
+                            Experience
+                        </a>
+                    </li>
+                    <li className="item">
+                        <a href="skill" className="link">
+                            Skills
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </header>
     )
 }
-export default Header;
+export default memo(Header);
