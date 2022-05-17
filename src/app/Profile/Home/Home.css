@@ -1,0 +1,12 @@
+.home{
+    position: relative;
+    height: 2000px;
+    min-height: 500px;
+    width: 100%;
+    background: #fffdfe url(/public/images/header-background.jpg) no-repeat top center;
+}
+
+.home-jpg{
+    
+    
+}

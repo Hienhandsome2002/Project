@@ -1,10 +1,10 @@
 import React, { memo, useState, useEffect } from "react";
 import './Header.css'
-function Header(){
-    return(
+function Header() {
+    return (
         <header className="header">
             <nav className="nav">
-            
+
                 <ul className="listItems">
                     <li className="item">
                         <a href="home" className="link">
@@ -12,8 +12,8 @@ function Header(){
                         </a>
                     </li>
                     <li className="item">
-                        <a href="about-me" className="link">
-                            About me
+                        <a href="about" className="link">
+                            About
                         </a>
                     </li>
                     <li className="item" >
