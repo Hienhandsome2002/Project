@@ -14,7 +14,10 @@
 }   
 
 .banner-text{
+    
     justify-content: center;
+    width: 85%;
+
     
 }
 
@@ -41,4 +44,35 @@
 .subText span{
     color: #fffdfe;
 }
+
+hr{
+    width: 60%;
+    margin: 1.8rem auto 1.5rem auto;
+    border-color: #2F2D2E;
+    border-color: rgba(150, 150, 150, .1);
+}
+ 
+.socialIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 1.5rem;
+    
+}
+
+.ContainerIcons{
+    padding-left: 1.8rem;
+}
+.Icons{
+    color: whitesmoke;
+    font-size: 1.8rem;
+    transition: all 0.5s ;
+}
+
+.Icons:hover{
+    color: aquamarine;
+    transform: translateY(-10px);
+}
+
 
