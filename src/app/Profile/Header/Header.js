@@ -1,5 +1,5 @@
 import React, { memo, useState, useEffect } from "react";
-import './Header.css'
+import './Header.scss'
 function Header() {
     return (
         <header className="header">

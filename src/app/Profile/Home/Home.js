@@ -1,5 +1,5 @@
 import React, { memo, useState, useEffect } from "react";
-import './Home.css';
+import './Home.scss';
 import { FaFacebookSquare,
     FaTwitter,
     FaGooglePlusG,
@@ -23,7 +23,7 @@ function Home() {
                 <hr></hr>
                 <div className="socialIcons">
                     <div className="ContainerIcons">
-                    <FaFacebookSquare className="Icons"></FaFacebookSquare>
+                    <a href="https://www.facebook.com/giangtuan.hien/"><FaFacebookSquare className="Icons"></FaFacebookSquare></a>
                     </div>
                     <div className="ContainerIcons">
                     <FaTwitter className="Icons"></FaTwitter>
@@ -32,10 +32,10 @@ function Home() {
                     <FaGooglePlusG className="Icons"></FaGooglePlusG>
                     </div>
                     <div className="ContainerIcons">
-                    <FaGithub className="Icons"></FaGithub>
+                    <a href="https://github.com/Hienhandsome2002"><FaGithub className="Icons"></FaGithub></a>
                     </div>
                     <div className="ContainerIcons">
-                    <FaInstagram className="Icons"></FaInstagram>
+                    <a href="https://www.instagram.com/hientuan1301/"><FaInstagram className="Icons"></FaInstagram></a>
                     </div>
                     <div className="ContainerIcons">
                     <FaSkype className="Icons"></FaSkype>

@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    max-width: 100%;
+    min-height: 48px;
+    background-color: #161415 ;
+    .listItems{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+        list-style: none;
+    }
+    .item{
+        padding: 8px 13px;
+        
+    }
+    .link{
+        text-decoration: none;
+        font: 0.75rem 'opensans-bold', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        outline: none;
+        cursor: pointer;
+        line-height: 48px;
+        color: whitesmoke;
+    }
+    .link:hover{
+        color: #F06000;
+    }
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
