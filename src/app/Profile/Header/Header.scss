@@ -21,17 +21,18 @@
     }
     .link{
         text-decoration: none;
-        font: 0.75rem 'opensans-bold', sans-serif;
+        font: 0.75rem opensans-bold, sans-serif;
         text-transform: uppercase;
         letter-spacing: 2.5px;
         outline: none;
         cursor: pointer;
         line-height: 48px;
         color: whitesmoke;
+        &:hover{
+            color: #F06000;
+        }
     }
-    .link:hover{
-        color: #F06000;
-    }
+    
 
     
 }

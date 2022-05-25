@@ -28,7 +28,7 @@
                 color: #a8a8a8;
                 text-shadow: 0px 1px 2px rgb(0 0 0 / 50%);
                 letter-spacing: normal;
-                .subText span {
+                span {
                     color: #fffdfe;
                 }
             }
@@ -53,7 +53,7 @@
                     color: whitesmoke;
                     font-size: 1.8rem;
                     transition: all 0.5s;
-                    .Icons:hover {
+                    &:hover {
                         color: aquamarine;
                         transform: translateY(-10px);
                         cursor: pointer;
