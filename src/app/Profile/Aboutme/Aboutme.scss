@@ -1,0 +1,38 @@
+.About {
+    height: 700px;
+    width: 100%;
+    ;
+    background-color: #2B2B2B;
+
+    .titleAboutme {
+        h2 {
+            padding-left: 40rem;
+            padding-top: 5rem;
+            color: aliceblue;
+        }
+
+        .containerUntitle 
+        {
+            max-width: 70rem;
+            padding-left: 40rem;
+         
+            p{
+                color: #7A7A7A;
+                font-size: 100%;
+                vertical-align: baseline;
+                background: transparent;
+                letter-spacing: normal;
+                display: block;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                font-family: 'opensans-regular', sans-serif;
+                font-weight: normal;
+                line-height: 30px;
+            }
+        }
+
+
+
+    }
+
+}
